@@ -8,4 +8,4 @@
     };
     可以设置图形大小，样式以及它们之间的间隔，如果您希望和我继续优化和探讨的想法，可以加我QQ：326610240，我也会继续优化的。
     附上效果图：
-     https://github.com/chenqitao/QTScrollview/blob/master/QTScrollView/tab5.gif
+  ![](https://github.com/chenqitao/QTScrollview/blob/master/QTScrollView/tab5.gif)
