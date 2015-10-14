@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFD6881D1BCCFC4D003F4EF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD6881C1BCCFC4D003F4EF9 /* main.m */; };
+		AFD688201BCCFC4D003F4EF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD6881F1BCCFC4D003F4EF9 /* AppDelegate.m */; };
+		AFD688281BCCFC4D003F4EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD688271BCCFC4D003F4EF9 /* Assets.xcassets */; };
+		AFD6882B1BCCFC4D003F4EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD688291BCCFC4D003F4EF9 /* LaunchScreen.storyboard */; };
+		AFD688361BCCFC4D003F4EF9 /* QTScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD688351BCCFC4D003F4EF9 /* QTScrollViewTests.m */; };
+		AFD688411BCCFC4D003F4EF9 /* QTScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD688401BCCFC4D003F4EF9 /* QTScrollViewUITests.m */; };
+		AFD688501BCCFCAD003F4EF9 /* QTMainVieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD6884F1BCCFCAD003F4EF9 /* QTMainVieViewController.m */; settings = {ASSET_TAGS = (); }; };
+		AFD688531BCCFD6C003F4EF9 /* QTScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD688521BCCFD6C003F4EF9 /* QTScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		AFD688551BCD01A9003F4EF9 /* woniu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFD688541BCD01A9003F4EF9 /* woniu.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFD688321BCCFC4D003F4EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD688101BCCFC4D003F4EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD688171BCCFC4D003F4EF9;
+			remoteInfo = QTScrollView;
+		};
+		AFD6883D1BCCFC4D003F4EF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFD688101BCCFC4D003F4EF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD688171BCCFC4D003F4EF9;
+			remoteInfo = QTScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFD688181BCCFC4D003F4EF9 /* QTScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD6881C1BCCFC4D003F4EF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFD6881E1BCCFC4D003F4EF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFD6881F1BCCFC4D003F4EF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFD688271BCCFC4D003F4EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFD6882A1BCCFC4D003F4EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFD6882C1BCCFC4D003F4EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD688311BCCFC4D003F4EF9 /* QTScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD688351BCCFC4D003F4EF9 /* QTScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTScrollViewTests.m; sourceTree = "<group>"; };
+		AFD688371BCCFC4D003F4EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD6883C1BCCFC4D003F4EF9 /* QTScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD688401BCCFC4D003F4EF9 /* QTScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTScrollViewUITests.m; sourceTree = "<group>"; };
+		AFD688421BCCFC4D003F4EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD6884E1BCCFCAD003F4EF9 /* QTMainVieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTMainVieViewController.h; sourceTree = "<group>"; };
+		AFD6884F1BCCFCAD003F4EF9 /* QTMainVieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTMainVieViewController.m; sourceTree = "<group>"; };
+		AFD688511BCCFD6C003F4EF9 /* QTScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTScrollView.h; sourceTree = "<group>"; };
+		AFD688521BCCFD6C003F4EF9 /* QTScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTScrollView.m; sourceTree = "<group>"; };
+		AFD688541BCD01A9003F4EF9 /* woniu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woniu.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFD688151BCCFC4D003F4EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD6882E1BCCFC4D003F4EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD688391BCCFC4D003F4EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFD6880F1BCCFC4D003F4EF9 = {
+			isa = PBXGroup;
+			children = (
+				AFD6881A1BCCFC4D003F4EF9 /* QTScrollView */,
+				AFD688341BCCFC4D003F4EF9 /* QTScrollViewTests */,
+				AFD6883F1BCCFC4D003F4EF9 /* QTScrollViewUITests */,
+				AFD688191BCCFC4D003F4EF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFD688191BCCFC4D003F4EF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFD688181BCCFC4D003F4EF9 /* QTScrollView.app */,
+				AFD688311BCCFC4D003F4EF9 /* QTScrollViewTests.xctest */,
+				AFD6883C1BCCFC4D003F4EF9 /* QTScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFD6881A1BCCFC4D003F4EF9 /* QTScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				AFD688511BCCFD6C003F4EF9 /* QTScrollView.h */,
+				AFD688521BCCFD6C003F4EF9 /* QTScrollView.m */,
+				AFD6881E1BCCFC4D003F4EF9 /* AppDelegate.h */,
+				AFD6881F1BCCFC4D003F4EF9 /* AppDelegate.m */,
+				AFD6884E1BCCFCAD003F4EF9 /* QTMainVieViewController.h */,
+				AFD6884F1BCCFCAD003F4EF9 /* QTMainVieViewController.m */,
+				AFD688271BCCFC4D003F4EF9 /* Assets.xcassets */,
+				AFD688541BCD01A9003F4EF9 /* woniu.jpg */,
+				AFD688291BCCFC4D003F4EF9 /* LaunchScreen.storyboard */,
+				AFD6882C1BCCFC4D003F4EF9 /* Info.plist */,
+				AFD6881B1BCCFC4D003F4EF9 /* Supporting Files */,
+			);
+			path = QTScrollView;
+			sourceTree = "<group>";
+		};
+		AFD6881B1BCCFC4D003F4EF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFD6881C1BCCFC4D003F4EF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFD688341BCCFC4D003F4EF9 /* QTScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD688351BCCFC4D003F4EF9 /* QTScrollViewTests.m */,
+				AFD688371BCCFC4D003F4EF9 /* Info.plist */,
+			);
+			path = QTScrollViewTests;
+			sourceTree = "<group>";
+		};
+		AFD6883F1BCCFC4D003F4EF9 /* QTScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD688401BCCFC4D003F4EF9 /* QTScrollViewUITests.m */,
+				AFD688421BCCFC4D003F4EF9 /* Info.plist */,
+			);
+			path = QTScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFD688171BCCFC4D003F4EF9 /* QTScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD688451BCCFC4D003F4EF9 /* Build configuration list for PBXNativeTarget "QTScrollView" */;
+			buildPhases = (
+				AFD688141BCCFC4D003F4EF9 /* Sources */,
+				AFD688151BCCFC4D003F4EF9 /* Frameworks */,
+				AFD688161BCCFC4D003F4EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTScrollView;
+			productName = QTScrollView;
+			productReference = AFD688181BCCFC4D003F4EF9 /* QTScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFD688301BCCFC4D003F4EF9 /* QTScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD688481BCCFC4D003F4EF9 /* Build configuration list for PBXNativeTarget "QTScrollViewTests" */;
+			buildPhases = (
+				AFD6882D1BCCFC4D003F4EF9 /* Sources */,
+				AFD6882E1BCCFC4D003F4EF9 /* Frameworks */,
+				AFD6882F1BCCFC4D003F4EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD688331BCCFC4D003F4EF9 /* PBXTargetDependency */,
+			);
+			name = QTScrollViewTests;
+			productName = QTScrollViewTests;
+			productReference = AFD688311BCCFC4D003F4EF9 /* QTScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFD6883B1BCCFC4D003F4EF9 /* QTScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD6884B1BCCFC4D003F4EF9 /* Build configuration list for PBXNativeTarget "QTScrollViewUITests" */;
+			buildPhases = (
+				AFD688381BCCFC4D003F4EF9 /* Sources */,
+				AFD688391BCCFC4D003F4EF9 /* Frameworks */,
+				AFD6883A1BCCFC4D003F4EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFD6883E1BCCFC4D003F4EF9 /* PBXTargetDependency */,
+			);
+			name = QTScrollViewUITests;
+			productName = QTScrollViewUITests;
+			productReference = AFD6883C1BCCFC4D003F4EF9 /* QTScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFD688101BCCFC4D003F4EF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "陈齐涛";
+				TargetAttributes = {
+					AFD688171BCCFC4D003F4EF9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					AFD688301BCCFC4D003F4EF9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AFD688171BCCFC4D003F4EF9;
+					};
+					AFD6883B1BCCFC4D003F4EF9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AFD688171BCCFC4D003F4EF9;
+					};
+				};
+			};
+			buildConfigurationList = AFD688131BCCFC4D003F4EF9 /* Build configuration list for PBXProject "QTScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFD6880F1BCCFC4D003F4EF9;
+			productRefGroup = AFD688191BCCFC4D003F4EF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFD688171BCCFC4D003F4EF9 /* QTScrollView */,
+				AFD688301BCCFC4D003F4EF9 /* QTScrollViewTests */,
+				AFD6883B1BCCFC4D003F4EF9 /* QTScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFD688161BCCFC4D003F4EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD6882B1BCCFC4D003F4EF9 /* LaunchScreen.storyboard in Resources */,
+				AFD688551BCD01A9003F4EF9 /* woniu.jpg in Resources */,
+				AFD688281BCCFC4D003F4EF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD6882F1BCCFC4D003F4EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD6883A1BCCFC4D003F4EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFD688141BCCFC4D003F4EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD688531BCCFD6C003F4EF9 /* QTScrollView.m in Sources */,
+				AFD688201BCCFC4D003F4EF9 /* AppDelegate.m in Sources */,
+				AFD6881D1BCCFC4D003F4EF9 /* main.m in Sources */,
+				AFD688501BCCFCAD003F4EF9 /* QTMainVieViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD6882D1BCCFC4D003F4EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD688361BCCFC4D003F4EF9 /* QTScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD688381BCCFC4D003F4EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD688411BCCFC4D003F4EF9 /* QTScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFD688331BCCFC4D003F4EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD688171BCCFC4D003F4EF9 /* QTScrollView */;
+			targetProxy = AFD688321BCCFC4D003F4EF9 /* PBXContainerItemProxy */;
+		};
+		AFD6883E1BCCFC4D003F4EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFD688171BCCFC4D003F4EF9 /* QTScrollView */;
+			targetProxy = AFD6883D1BCCFC4D003F4EF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFD688291BCCFC4D003F4EF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFD6882A1BCCFC4D003F4EF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFD688431BCCFC4D003F4EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFD688441BCCFC4D003F4EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFD688461BCCFC4D003F4EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFD688471BCCFC4D003F4EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QTScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFD688491BCCFC4D003F4EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTScrollView.app/QTScrollView";
+			};
+			name = Debug;
+		};
+		AFD6884A1BCCFC4D003F4EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QTScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTScrollView.app/QTScrollView";
+			};
+			name = Release;
+		};
+		AFD6884C1BCCFC4D003F4EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QTScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QTScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AFD6884D1BCCFC4D003F4EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QTScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chen.QTScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QTScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFD688131BCCFC4D003F4EF9 /* Build configuration list for PBXProject "QTScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD688431BCCFC4D003F4EF9 /* Debug */,
+				AFD688441BCCFC4D003F4EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD688451BCCFC4D003F4EF9 /* Build configuration list for PBXNativeTarget "QTScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD688461BCCFC4D003F4EF9 /* Debug */,
+				AFD688471BCCFC4D003F4EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFD688481BCCFC4D003F4EF9 /* Build configuration list for PBXNativeTarget "QTScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD688491BCCFC4D003F4EF9 /* Debug */,
+				AFD6884A1BCCFC4D003F4EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFD6884B1BCCFC4D003F4EF9 /* Build configuration list for PBXNativeTarget "QTScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFD6884C1BCCFC4D003F4EF9 /* Debug */,
+				AFD6884D1BCCFC4D003F4EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFD688101BCCFC4D003F4EF9 /* Project object */;
+}
