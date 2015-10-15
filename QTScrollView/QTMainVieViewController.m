@@ -23,14 +23,13 @@
 }
 
 - (void)creatUI {
-    QTScrollView *scroll = [[QTScrollView alloc]initWithScrollViewFrame:CGRectMake(0, 50, self.view.bounds.size.width, 100) AndImagesArray:@[@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg"] AndSize:CGSizeMake(50, 50) AndSeparatorOffset:50];
+    QTScrollView *scroll = [[QTScrollView alloc]initWithScrollViewFrame:CGRectMake(0, 50, self.view.bounds.size.width, 100) AndImagesArray:@[@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg",@"woniu.jpg"] AndSize:CGSizeMake(50, 50)];
     scroll.tapImageBlock = ^(NSInteger selectIndex){
     
         NSLog(@"点击的位置%ld",(long)selectIndex);
     
     };
     [self.view addSubview:scroll];
-
 }
 
 - (void)didReceiveMemoryWarning {

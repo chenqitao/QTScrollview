@@ -14,6 +14,6 @@ typedef void(^TapImageViewblock)(NSInteger selectIndex); /**< 定义回调传值
 
 @property (nonatomic, copy) TapImageViewblock tapImageBlock;
 
-- (instancetype)initWithScrollViewFrame:(CGRect)frame  AndImagesArray:(NSArray *)imageArray  AndSize:( CGSize)imageSize AndSeparatorOffset:(CGFloat)sepOffset;
+- (instancetype)initWithScrollViewFrame:(CGRect)frame  AndImagesArray:(NSArray *)imageArray  AndSize:( CGSize)imageSize;
 
 @end
